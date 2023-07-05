@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89084CA32A401792002FEFD7 /* ScannedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CA22A401792002FEFD7 /* ScannedDocument.swift */; };
+		89084CA52A401A64002FEFD7 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CA42A401A64002FEFD7 /* StoreManager.swift */; };
+		89084CA72A401B5F002FEFD7 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CA62A401B5F002FEFD7 /* HistoryManager.swift */; };
+		89084CA92A402072002FEFD7 /* DocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CA82A402072002FEFD7 /* DocumentCell.swift */; };
+		89084CAC2A402974002FEFD7 /* ScannedDocumentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CAB2A402974002FEFD7 /* ScannedDocumentViewModel.swift */; };
+		89084CAE2A4051FC002FEFD7 /* DocumentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CAD2A4051FB002FEFD7 /* DocumentPreview.swift */; };
+		89084CB92A4069EB002FEFD7 /* TextRecognizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89084CB82A4069EB002FEFD7 /* TextRecognizerViewModel.swift */; };
+		8945B81E2A540AA400D697DF /* TextScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8945B81D2A540AA400D697DF /* TextScannerView.swift */; };
+		8945B8202A54150600D697DF /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8945B81F2A54150600D697DF /* TextRecognizer.swift */; };
+		8945B8222A54187D00D697DF /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8945B8212A54187D00D697DF /* PDFKitView.swift */; };
+		898E807F2A2DAC4500392BFA /* DocumentScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E807E2A2DAC4500392BFA /* DocumentScannerApp.swift */; };
+		898E80812A2DAC4500392BFA /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E80802A2DAC4500392BFA /* DocumentView.swift */; };
+		898E80832A2DAC4700392BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898E80822A2DAC4700392BFA /* Assets.xcassets */; };
+		898E80862A2DAC4700392BFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898E80852A2DAC4700392BFA /* Preview Assets.xcassets */; };
+		898E80922A2DAD7300392BFA /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E80912A2DAD7300392BFA /* ScannerView.swift */; };
+		898E80962A2DAED900392BFA /* RecognizedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E80952A2DAED900392BFA /* RecognizedText.swift */; };
+		898E80982A2DAEF700392BFA /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E80972A2DAEF700392BFA /* TextPreviewView.swift */; };
+		898E809D2A2DB7EC00392BFA /* DSTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898E809C2A2DB7EC00392BFA /* DSTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89084CA22A401792002FEFD7 /* ScannedDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDocument.swift; sourceTree = "<group>"; };
+		89084CA42A401A64002FEFD7 /* StoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		89084CA62A401B5F002FEFD7 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		89084CA82A402072002FEFD7 /* DocumentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCell.swift; sourceTree = "<group>"; };
+		89084CAB2A402974002FEFD7 /* ScannedDocumentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedDocumentViewModel.swift; sourceTree = "<group>"; };
+		89084CAD2A4051FB002FEFD7 /* DocumentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPreview.swift; sourceTree = "<group>"; };
+		89084CB82A4069EB002FEFD7 /* TextRecognizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizerViewModel.swift; sourceTree = "<group>"; };
+		8945B81D2A540AA400D697DF /* TextScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScannerView.swift; sourceTree = "<group>"; };
+		8945B81F2A54150600D697DF /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		8945B8212A54187D00D697DF /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		898E807B2A2DAC4500392BFA /* DocumentScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898E807E2A2DAC4500392BFA /* DocumentScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerApp.swift; sourceTree = "<group>"; };
+		898E80802A2DAC4500392BFA /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
+		898E80822A2DAC4700392BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898E80852A2DAC4700392BFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		898E80912A2DAD7300392BFA /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		898E80952A2DAED900392BFA /* RecognizedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedText.swift; sourceTree = "<group>"; };
+		898E80972A2DAEF700392BFA /* TextPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreviewView.swift; sourceTree = "<group>"; };
+		898E809C2A2DB7EC00392BFA /* DSTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898E80782A2DAC4500392BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89084CA12A401771002FEFD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89084CA22A401792002FEFD7 /* ScannedDocument.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89084CAA2A402958002FEFD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89084CAB2A402974002FEFD7 /* ScannedDocumentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89084CAF2A405ED6002FEFD7 /* DocumentScanner */ = {
+			isa = PBXGroup;
+			children = (
+				89084CA12A401771002FEFD7 /* Model */,
+				89084CAA2A402958002FEFD7 /* ViewModel */,
+				89084CB02A405EE5002FEFD7 /* View */,
+			);
+			path = DocumentScanner;
+			sourceTree = "<group>";
+		};
+		89084CB02A405EE5002FEFD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				898E80912A2DAD7300392BFA /* ScannerView.swift */,
+				89084CA82A402072002FEFD7 /* DocumentCell.swift */,
+				898E80802A2DAC4500392BFA /* DocumentView.swift */,
+				89084CAD2A4051FB002FEFD7 /* DocumentPreview.swift */,
+				8945B8212A54187D00D697DF /* PDFKitView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89084CB12A405F1C002FEFD7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				89084CA42A401A64002FEFD7 /* StoreManager.swift */,
+				89084CA62A401B5F002FEFD7 /* HistoryManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		89084CB22A405F34002FEFD7 /* TextRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				89084CB52A405F85002FEFD7 /* Model */,
+				89084CB42A405F7C002FEFD7 /* ViewModel */,
+				89084CB32A405F76002FEFD7 /* View */,
+			);
+			path = TextRecognizer;
+			sourceTree = "<group>";
+		};
+		89084CB32A405F76002FEFD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				898E80972A2DAEF700392BFA /* TextPreviewView.swift */,
+				8945B81F2A54150600D697DF /* TextRecognizer.swift */,
+				8945B81D2A540AA400D697DF /* TextScannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89084CB42A405F7C002FEFD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89084CB82A4069EB002FEFD7 /* TextRecognizerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89084CB52A405F85002FEFD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				898E80952A2DAED900392BFA /* RecognizedText.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89084CB62A405FA6002FEFD7 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				898E809C2A2DB7EC00392BFA /* DSTabView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		89084CB72A405FB2002FEFD7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				898E807E2A2DAC4500392BFA /* DocumentScannerApp.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		898E80722A2DAC4500392BFA = {
+			isa = PBXGroup;
+			children = (
+				898E807D2A2DAC4500392BFA /* DocumentScanner */,
+				898E807C2A2DAC4500392BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898E807C2A2DAC4500392BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898E807B2A2DAC4500392BFA /* DocumentScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898E807D2A2DAC4500392BFA /* DocumentScanner */ = {
+			isa = PBXGroup;
+			children = (
+				89084CB72A405FB2002FEFD7 /* Common */,
+				89084CB62A405FA6002FEFD7 /* Tabbar */,
+				89084CB12A405F1C002FEFD7 /* Manager */,
+				89084CAF2A405ED6002FEFD7 /* DocumentScanner */,
+				89084CB22A405F34002FEFD7 /* TextRecognizer */,
+				898E80822A2DAC4700392BFA /* Assets.xcassets */,
+				898E80842A2DAC4700392BFA /* Preview Content */,
+			);
+			path = DocumentScanner;
+			sourceTree = "<group>";
+		};
+		898E80842A2DAC4700392BFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				898E80852A2DAC4700392BFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898E807A2A2DAC4500392BFA /* DocumentScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898E808E2A2DAC4700392BFA /* Build configuration list for PBXNativeTarget "DocumentScanner" */;
+			buildPhases = (
+				898E80772A2DAC4500392BFA /* Sources */,
+				898E80782A2DAC4500392BFA /* Frameworks */,
+				898E80792A2DAC4500392BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocumentScanner;
+			productName = DocumentScanner;
+			productReference = 898E807B2A2DAC4500392BFA /* DocumentScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898E80732A2DAC4500392BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					898E807A2A2DAC4500392BFA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 898E80762A2DAC4500392BFA /* Build configuration list for PBXProject "DocumentScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898E80722A2DAC4500392BFA;
+			productRefGroup = 898E807C2A2DAC4500392BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898E807A2A2DAC4500392BFA /* DocumentScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898E80792A2DAC4500392BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898E80862A2DAC4700392BFA /* Preview Assets.xcassets in Resources */,
+				898E80832A2DAC4700392BFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898E80772A2DAC4500392BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898E80962A2DAED900392BFA /* RecognizedText.swift in Sources */,
+				898E80982A2DAEF700392BFA /* TextPreviewView.swift in Sources */,
+				898E809D2A2DB7EC00392BFA /* DSTabView.swift in Sources */,
+				89084CA32A401792002FEFD7 /* ScannedDocument.swift in Sources */,
+				89084CA72A401B5F002FEFD7 /* HistoryManager.swift in Sources */,
+				89084CA92A402072002FEFD7 /* DocumentCell.swift in Sources */,
+				898E80812A2DAC4500392BFA /* DocumentView.swift in Sources */,
+				8945B8202A54150600D697DF /* TextRecognizer.swift in Sources */,
+				8945B8222A54187D00D697DF /* PDFKitView.swift in Sources */,
+				89084CB92A4069EB002FEFD7 /* TextRecognizerViewModel.swift in Sources */,
+				8945B81E2A540AA400D697DF /* TextScannerView.swift in Sources */,
+				898E807F2A2DAC4500392BFA /* DocumentScannerApp.swift in Sources */,
+				89084CAE2A4051FC002FEFD7 /* DocumentPreview.swift in Sources */,
+				89084CAC2A402974002FEFD7 /* ScannedDocumentViewModel.swift in Sources */,
+				89084CA52A401A64002FEFD7 /* StoreManager.swift in Sources */,
+				898E80922A2DAD7300392BFA /* ScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		898E808C2A2DAC4700392BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		898E808D2A2DAC4700392BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898E808F2A2DAC4700392BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocumentScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access the camera in order to scan documents.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enam.DocumentScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		898E80902A2DAC4700392BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocumentScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access the camera in order to scan documents.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enam.DocumentScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898E80762A2DAC4500392BFA /* Build configuration list for PBXProject "DocumentScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898E808C2A2DAC4700392BFA /* Debug */,
+				898E808D2A2DAC4700392BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898E808E2A2DAC4700392BFA /* Build configuration list for PBXNativeTarget "DocumentScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898E808F2A2DAC4700392BFA /* Debug */,
+				898E80902A2DAC4700392BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898E80732A2DAC4500392BFA /* Project object */;
+}
